@@ -45,10 +45,6 @@ INITIAL_LEARNING_RATE = 0.1  # Initial learning rate.
 # names of the summaries when visualizing a model.
 TOWER_NAME = 'tower'
 
-# todo
-DATA_URL = 'http://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz'
-
-
 def _activation_summary(x):
     """Helper to create summaries for activations.
   
@@ -289,7 +285,7 @@ def _add_loss_summaries(total_loss):
 
 
 def train(total_loss, global_step):
-    """Train CIFAR-10 model.
+    """Train SVHN model.
   
     Create an optimizer and apply to all trainable variables. Add moving
     average for all trainable variables.
