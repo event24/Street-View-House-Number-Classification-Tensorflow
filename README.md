@@ -1,6 +1,6 @@
 # Overview 
 >> Convolutional Neural Network for classifying [Street View House Number data set](http://ufldl.stanford.edu/housenumbers/).
-The model is build with [Tensorflow](https://www.tensorflow.org). After 20K of training steps the model loss is 0.29 and accuracy is 91%.
+The model is built with [Tensorflow](https://www.tensorflow.org). After 20K of training steps, the model loss is 0.29 and accuracy is 91%.
 
 # Project Description
 >> ### convert_to_tfrecords.py
